@@ -4,7 +4,7 @@ const bg = document.querySelector('.bg')
 let load  = 0
 
 // increment the load in ms 
-let interval = setInterval(blur, 30)
+let interval = setInterval(blur, 50)
 
 function blur() {
     load++
